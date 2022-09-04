@@ -10,9 +10,10 @@
 		E138DDF628C43908000877E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138DDF528C43908000877E3 /* AppDelegate.swift */; };
 		E138DDF828C43908000877E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138DDF728C43908000877E3 /* SceneDelegate.swift */; };
 		E138DDFA28C43908000877E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138DDF928C43908000877E3 /* ViewController.swift */; };
-		E138DDFD28C43908000877E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138DDFB28C43908000877E3 /* Main.storyboard */; };
 		E138DDFF28C4390C000877E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E138DDFE28C4390C000877E3 /* Assets.xcassets */; };
 		E138DE0228C4390C000877E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138DE0028C4390C000877E3 /* LaunchScreen.storyboard */; };
+		E138DE0A28C43C70000877E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138DE0928C43C70000877E3 /* Main.storyboard */; };
+		E138DE0C28C43C81000877E3 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E138DE0B28C43C81000877E3 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		E138DDF528C43908000877E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138DDF728C43908000877E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E138DDF928C43908000877E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E138DDFC28C43908000877E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E138DDFE28C4390C000877E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E138DE0128C4390C000877E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E138DE0328C4390C000877E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E138DE0928C43C70000877E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E138DE0B28C43C81000877E3 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 				E138DDF528C43908000877E3 /* AppDelegate.swift */,
 				E138DDF728C43908000877E3 /* SceneDelegate.swift */,
 				E138DDF928C43908000877E3 /* ViewController.swift */,
-				E138DDFB28C43908000877E3 /* Main.storyboard */,
+				E138DE0928C43C70000877E3 /* Main.storyboard */,
 				E138DDFE28C4390C000877E3 /* Assets.xcassets */,
+				E138DE0B28C43C81000877E3 /* alarm_sound.mp3 */,
 				E138DE0028C4390C000877E3 /* LaunchScreen.storyboard */,
 				E138DE0328C4390C000877E3 /* Info.plist */,
 			);
@@ -127,7 +130,8 @@
 			files = (
 				E138DE0228C4390C000877E3 /* LaunchScreen.storyboard in Resources */,
 				E138DDFF28C4390C000877E3 /* Assets.xcassets in Resources */,
-				E138DDFD28C43908000877E3 /* Main.storyboard in Resources */,
+				E138DE0C28C43C81000877E3 /* alarm_sound.mp3 in Resources */,
+				E138DE0A28C43C70000877E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E138DDFB28C43908000877E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E138DDFC28C43908000877E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E138DE0028C4390C000877E3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
